@@ -21,7 +21,14 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             System.out.println("Welcome ,"+i);
         }
+        System.out.println("=========================");
 
+        for (int i = 1; i < 6; i++) {
+            System.out.println("*");
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+        }
 
     }
 }
