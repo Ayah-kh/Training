@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Array {
     public static void main(String[] args) {
         String[] name=new String[4];
@@ -11,6 +13,18 @@ public class Array {
         for (int i = 3; i >=0; i--) {
             System.out.println(name[i]);
         }
+
+        ArrayList<String> names=new ArrayList<>();
+        names.add("Hussen");
+        names.add("Ahmad");
+        names.add("talib");
+
+        System.out.println("names = " + names);
+
+        System.out.println(names.get(1));
+        names.remove(0);
+        System.out.println("names = " + names);
+
 
     }
 }
