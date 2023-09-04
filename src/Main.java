@@ -12,6 +12,9 @@ public class Main {
         if (age>18){
             System.out.println("welcome, age: "+age);
         }
+        else{
+            System.out.println("to school, age: "+age);
+        }
         System.out.println("test");
 
 
