@@ -8,5 +8,12 @@ public class Main {
         System.out.println("n = " + n);
         System.out.println("++n = " + ++n);
 
+        int age=15;
+        if (age>18){
+            System.out.println("welcome, age: "+age);
+        }
+        System.out.println("test");
+
+
     }
 }
