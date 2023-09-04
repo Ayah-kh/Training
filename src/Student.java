@@ -1,4 +1,5 @@
 public class Student {
+    public static int studentNo=5;
     String firstName;
     String lastName;
 //    Student(){
@@ -29,6 +30,12 @@ public class Student {
         MathStudent mathStudent = new MathStudent("Ayah","Mahmoud");
         Student.staticMethod();
         MathStudent.staticMethod();
+
+        System.out.println("Student.studentNo = " + Student.studentNo);
+        System.out.println("MathStudent.studentNo = " + MathStudent.studentNo);
+        MathStudent.studentNo++;
+        System.out.println("Student.studentNo = " + Student.studentNo);
+        System.out.println("MathStudent.studentNo = " + MathStudent.studentNo);
     }
 }
 
