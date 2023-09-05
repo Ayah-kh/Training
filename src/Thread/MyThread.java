@@ -4,22 +4,13 @@ public class MyThread extends Thread{
 
     @Override
     public void run() {
-        int x=0;
-        while (true){
-            System.out.println(x);
-            x++;
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-        }
+        display();
     }
 
-    static void display(){
+    synchronized static void display(){
         int x=0;
         while (x<10){
-            System.out.println(x);
+            System.out.println("x = " + x);
             x++;
             try {
                 Thread.sleep(1000);
