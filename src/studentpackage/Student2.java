@@ -1,6 +1,6 @@
 package studentpackage;
 
-public class Student2 {
+public class Student2 implements info{
     public static int studentNo=5;
     String firstName;
     String lastName;
@@ -29,6 +29,11 @@ public class Student2 {
     public static void main(String[] args) {
         Student2 student2=new Student2("Ahmad","Ahmad",Gender.FEMALE);
 
+    }
+
+    @Override
+    public String getName() {
+        return firstName+" "+lastName;
     }
 }
 
