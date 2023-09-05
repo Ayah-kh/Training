@@ -13,15 +13,21 @@ public class Student2 {
         this.genderType = genderType;
     }
 
-
-
     String getStudentInfo(){
         return (firstName+" "+lastName);
     }
 
-
+    @Override
+    public String toString() {
+        return "Student2{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", genderType=" + genderType +
+                '}';
+    }
 
     public static void main(String[] args) {
+        Student2 student2=new Student2("Ahmad","Ahmad",Gender.FEMALE);
 
     }
 }
