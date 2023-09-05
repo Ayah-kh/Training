@@ -15,4 +15,17 @@ public class MyThread extends Thread{
             }
         }
     }
+
+    static void display(){
+        int x=0;
+        while (x<10){
+            System.out.println(x);
+            x++;
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
