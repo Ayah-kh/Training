@@ -1,14 +1,32 @@
 public class Main {
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};
 
-        // Access and print the first element of the 'numbers' array.
-        int firstElement = numbers[0];
-        System.out.println("First element: " + firstElement);
+        int n = 16; // The input size
+        int valueToFind = 8; // The value we want to find
 
-        // No matter how large the 'numbers' array is, the time it takes
-        // to access the first element and print it remains constant.
+        // Perform a binary search in a sorted array.
+        int[] sortedArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
+        int low = 0;
+        int high = n - 1;
+        boolean found = false;
 
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
 
+            if (sortedArray[mid] == valueToFind) {
+                found = true;
+                break;
+            } else if (sortedArray[mid] < valueToFind) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        if (found) {
+            System.out.println("Value found!");
+        } else {
+            System.out.println("Value not found.");
+        }
     }
 }
