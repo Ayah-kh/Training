@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
@@ -10,7 +8,7 @@ public class Main {
 
         // No matter how large the 'numbers' array is, the time it takes
         // to access the first element and print it remains constant.
-        }
+
 
     }
 }
