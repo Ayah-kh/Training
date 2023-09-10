@@ -2,32 +2,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int n=5;
-        System.out.println("n = " + n);
-        System.out.println("n++ = " + n++);
-        System.out.println("n = " + n);
-        System.out.println("++n = " + ++n);
+        int[] numbers = {1, 2, 3, 4, 5};
 
-        int age=15;
-        if (age>18){
-            System.out.println("welcome, age: "+age);
-        }
-        else{
-            System.out.println("to school, age: "+age);
-        }
-        System.out.println("test");
-        System.out.println("=========================");
+        // Access and print the first element of the 'numbers' array.
+        int firstElement = numbers[0];
+        System.out.println("First element: " + firstElement);
 
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Welcome ,"+i);
-        }
-        System.out.println("=========================");
-
-        for (int i = 1; i < 6; i++) {
-            System.out.println("*");
-            for (int j = 0; j < i; j++) {
-                System.out.print(" ");
-            }
+        // No matter how large the 'numbers' array is, the time it takes
+        // to access the first element and print it remains constant.
         }
 
     }
