@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int a = 0, i = N;
-        while (i > 0) {
-            a += i;
-            i /= 2;
+        int i, j, k = 0;
+        for (j = 2; j <= n; j = j * 2) {
+            k = k + n / 2;
+        }
     }
 }
