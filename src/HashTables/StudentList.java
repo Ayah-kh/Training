@@ -18,6 +18,22 @@ public class StudentList {
         return true;
     }
 
+    public boolean haveRollno(String rollno){
+        Node a =h.next;
+        boolean have = false;
+        while (a != null){
+            if (rollno.equals(a.data.getRoll_no()))
+                have=true;
+            a=a.next;
+        }
+        return have;
+    }
+
+
+
+
+
+
     private class Node{
         private Student data;
         private Node next;
