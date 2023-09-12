@@ -1,14 +1,13 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        char[][] board = new char[3][3];
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                board[i][j] = '-';
-            }
-        }
-        System.out.println("board= " + Arrays.deepToString(board));
+        Integer[] numbers={1,1,2,2,2,3,4,4,5,5,5};
+        Set<Integer> set=new HashSet<>(Arrays.asList(numbers));
+        System.out.println("list = " + set);
+        Set<Integer> set1=Set.of(5,6,4,7,8,9);
     }
+
+
 }

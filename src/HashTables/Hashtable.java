@@ -13,7 +13,13 @@ public class Hashtable {
     public int toHashCode(String rollNo) {
         int addasciis = 0;
         int codeValue = 0;
-
+        for (int i = 0; i < rollNo.length(); i++) {
+            addasciis = addasciis + (int)rollNo.charAt(i);
+        }
+        codeValue = addasciis% arr.length;
+        return codeValue;
     }
+
+
 
 }
