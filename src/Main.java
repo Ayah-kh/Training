@@ -1,13 +1,14 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
 
-        Map<String,String> map=new HashMap<>();
-        map.put(null,"fff");
-        System.out.println("map = " + map);
-        map.put(null,"aaaa");
-        System.out.println("map = " + map);
+        char[][] board = new char[3][3];
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                board[i][j] = '-';
+            }
+        }
+        System.out.println("board= " + Arrays.deepToString(board));
     }
 }
