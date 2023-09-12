@@ -22,6 +22,16 @@ public class HashFunction {
         }
     }
 
+    public void hashFunction2(String[] stringsForArray,String[] theArray){
+        for (int i = 0; i < stringsForArray.length; i++) {
+            String newElementVal = stringsForArray[i];
+            int arrayIndex=Integer.parseInt(newElementVal)%29;
+            System.out.println("Modulus Index=");
+
+        }
+    }
+
+
     public HashFunction(int arraySize) {
         this.arraySize = arraySize;
         theArray=new String[arraySize];
