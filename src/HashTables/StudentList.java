@@ -29,7 +29,39 @@ public class StudentList {
         return have;
     }
 
+    public Student fetchData(String rollNo){
+        Student data=null;
+        Node p = h.next;
+        while (p!= null){
+            if (p.data.getRoll_no().equals(rollNo)){
+              data=p.data;
+              break;
+            }
+            p=p.next;
+        }
+        return data;
+    }
 
+    public void deleteStudent(String rollNo){
+        Node p=h;
+        Node q=h.next;
+        while (q!=null && !(q.data.getRoll_no()).equals(rollNo)){
+            p=q;
+            q=q.next;
+        }
+        if (q != null)
+            p.next=q.next;
+        else
+            System.out.println("no data ");
+    }
+
+    public void showAll(){
+        Node x=h.next;
+        while (x!=null){
+            System.out.println(x.data);
+            x=x.next;
+        }
+    }
 
 
 
