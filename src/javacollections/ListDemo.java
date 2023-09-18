@@ -7,15 +7,14 @@ public class ListDemo {
 
     public static void main(String[] args) {
 
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Banana");
+        fruits.add("Apple");
+        fruits.add("Mango");
+        fruits.add("Orange");
 
-        List<String> list = new ArrayList<>();
-        list.add("Hello");
-        list.add("Hello");
-        list.add("Hi");
-        list.add("Hello");
-        list.add(null);
-        System.out.println("list = " + list);
-        System.out.println("list.get(0) = " + list.get(0));
-        System.out.println("list.get(2) = " + list.get(3));
+        System.out.println("fruits = " + fruits);
+
+
     }
 }
