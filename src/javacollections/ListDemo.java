@@ -15,5 +15,7 @@ public class ListDemo {
         list.add("Hello");
         list.add(null);
         System.out.println("list = " + list);
+        System.out.println("list.get(0) = " + list.get(0));
+        System.out.println("list.get(2) = " + list.get(3));
     }
 }
