@@ -12,6 +12,8 @@ public class ListDemo {
         fruits.add("Apple");
         fruits.add("Mango");
         fruits.add("Orange");
+        fruits.add("Pineapple");
+        fruits.add("Grapes");
 
 //        System.out.println("fruits = " + fruits);
 
@@ -53,7 +55,25 @@ public class ListDemo {
         String lang = programLanguage.get(1);
         System.out.println("lang = " + lang);
 
+        programLanguage.set(4,"C#");
+        System.out.println("programLanguage = " + programLanguage);
+        System.out.println("===================================");
 
+        System.out.println("fruits = " + fruits);
+        fruits.remove(4);
+        System.out.println("fruits = " + fruits);
+        fruits.remove("Mango");
+        System.out.println("fruits = " + fruits);
+
+        List<String> subFruits = new ArrayList<>();
+        subFruits.add("Banana");
+        subFruits.add("Apple");
+
+        fruits.removeAll(subFruits);
+        System.out.println("fruits4 = " + fruits);
+
+        fruits.clear();
+        System.out.println("fruits = " + fruits);
 
 
     }
