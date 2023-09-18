@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/src/javacollections/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollections/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javacollections/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollections/SortList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,13 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00005" summary="First Commit">
-      <created>1693813829296</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1693813829296</updated>
     </task>
     <task id="LOCAL-00006" summary="First Commit">
       <created>1693813925256</created>
@@ -476,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695039339366</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="First Commit">
+      <created>1695039799438</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1695039799438</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
