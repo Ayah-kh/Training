@@ -27,6 +27,16 @@ public class ListDemo {
         List<Integer> first10PrimeNumbers = new ArrayList<>(first5PrimeNumbers);
         System.out.println("first10PrimeNumbers = " + first10PrimeNumbers);
 
+        List<Integer> next5=new ArrayList<>();
+        next5.add(13);
+        next5.add(17);
+        next5.add(19);
+        next5.add(23);
+        next5.add(29);
+
+        first10PrimeNumbers.addAll(next5);
+        System.out.println("first10PrimeNumbers = " + first10PrimeNumbers);
+
 
     }
 }
