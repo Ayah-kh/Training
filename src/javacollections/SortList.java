@@ -13,9 +13,12 @@ public class SortList {
         employees.add(new Employee(30,"Sanjay",30,450000));
         employees.add(new Employee(40,"Pramod",29,500000));
 
-        Collections.sort(employees,new MySort());
+//        Collections.sort(employees,new MySort());
+//
+//        employees.forEach(s-> System.out.println(s));
 
-        employees.forEach(s-> System.out.println(s));
+        employees.sort((o1, o2) -> (int) (o2.getSalary() - o1.getSalary()));
+        employees.forEach(System.out::println);
 
 
 
