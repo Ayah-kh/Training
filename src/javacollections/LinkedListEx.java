@@ -34,9 +34,17 @@ public class LinkedListEx {
         System.out.println("s1 = " + s1);
         System.out.println("s2 = " + s2);
         System.out.println("fruits = " + fruits);
-        String s3 = fruits.remove(1);
-        System.out.println("s3 = " + s3);
+//        String s3 = fruits.remove(1);
+//        System.out.println("s3 = " + s3);
+
         System.out.println("fruits = " + fruits);
+
+        System.out.println("fruits.contains(\"Apple\") = " + fruits.contains("Apple"));
+
+        int mangoIndex = fruits.indexOf("mango");
+        System.out.println("mangoIndex = " + mangoIndex);
+
+        System.out.println("fruits.lastIndexOf(\"watermelon\") = " + fruits.lastIndexOf("watermelon"));
 
     }
 }
