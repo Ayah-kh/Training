@@ -29,5 +29,10 @@ public class HashSetEx {
 //        Set<Integer> integers=new HashSet<>(Arrays.asList(arr));
 //        System.out.println("integers = " + integers);
 
+        collect.removeIf(s->s%2==0);
+        System.out.println("collect = " + collect);
+
+
+
     }
 }
