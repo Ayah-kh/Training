@@ -31,6 +31,15 @@ public class HashMapEx {
         }
 
         numberMapping.forEach((K,V)-> System.out.println(K+" K:V "+V));
+        System.out.println("=========================================");
+
+        Map<StudentCol,Integer> studentMap = new HashMap<>();
+        studentMap.put(new StudentCol(1,"Ramesh","Fadatare"),10);
+        studentMap.put(new StudentCol(2,"Tony","Stark"),20);
+        studentMap.put(new StudentCol(3,"umesh","Fadatare"),30);
+        studentMap.put(new StudentCol(3,"umesh","Fadatare"),40);
+
+        System.out.println(studentMap);
 
 
     }

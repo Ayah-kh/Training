@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/src/javacollections/StudentCol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javacollections/HashMapEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollections/HashMapEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollections/HashSetEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollections/HashSetEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00014" summary="First Commit">
-      <created>1693817766071</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1693817766071</updated>
     </task>
     <task id="LOCAL-00015" summary="First Commit">
       <created>1693818052607</created>
@@ -483,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695131461291</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="First Commit">
+      <created>1695136265399</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1695136265399</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
