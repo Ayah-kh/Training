@@ -2,6 +2,7 @@ package comparingcom;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Comparing {
@@ -13,8 +14,9 @@ public class Comparing {
 
         laptops.forEach(System.out::println);
         System.out.println("======================================");
-        Collections.sort(laptops);
+        laptops.sort(Comparator.comparingInt(Laptop::getPrice));
         laptops.forEach(System.out::println);
+
 
     }
 }

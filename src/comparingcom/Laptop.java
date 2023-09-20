@@ -1,6 +1,6 @@
 package comparingcom;
 
-class Laptop implements Comparable<Laptop>{
+class Laptop {
 private String brand;
 private int ram;
 private int price;
@@ -44,8 +44,5 @@ private int price;
                 '}';
     }
 
-    @Override
-    public int compareTo(Laptop laptop) {
-        return Integer.compare(laptop.ram,this.ram);
-    }
+
 }
