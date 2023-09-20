@@ -1,6 +1,6 @@
 package javacollections;
 
-import java.util.Objects;
+import java.util.*;
 
 public class StudentCol {
     private int id;
@@ -28,6 +28,9 @@ public class StudentCol {
         if (o == null || getClass() != o.getClass()) return false;
         StudentCol that = (StudentCol) o;
         return id == that.id && firstName.equals(that.firstName) && lastName.equals(that.lastName);
+
+
+
     }
 
     @Override

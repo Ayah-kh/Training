@@ -1,9 +1,6 @@
 package javacollections;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class HashMapEx {
     public static void main(String[] args) {
@@ -41,6 +38,15 @@ public class HashMapEx {
 
         System.out.println(studentMap);
 
+        Set<StudentCol> studentCols = new HashSet<>();
+        studentCols.add(new StudentCol(1,"Ramesh","Fadatare"));
+        studentCols.add(new StudentCol(2,"Tony","Stark"));
+        studentCols.add(new StudentCol(3,"umesh","Fadatare"));
+        studentCols.add(new StudentCol(3,"umesh","Fadatare"));
+
+        System.out.println("====================================");
+
+        studentCols.forEach(System.out::println);
 
     }
 }
