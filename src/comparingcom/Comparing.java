@@ -1,6 +1,7 @@
 package comparingcom;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Comparing {
@@ -10,6 +11,10 @@ public class Comparing {
         laptops.add(new Laptop("Apple",8,1200));
         laptops.add(new Laptop("Acer",12,700));
 
+        laptops.forEach(System.out::println);
+        System.out.println("======================================");
+        Collections.sort(laptops);
+        laptops.forEach(System.out::println);
 
     }
 }
