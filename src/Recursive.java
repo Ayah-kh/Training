@@ -10,13 +10,20 @@ public class Recursive {
     public static void printNum(int [] arr, int k){
         int n = arr.length;
         int[] newArray= new int[k];
-            printNum(arr,k,n,newArray);
+        int loopStart=0;
+            printNum(arr,k,n,loopStart,newArray);
 
     }
-    private static void printNum(int [] arr, int k,int n,int[] newArray) {
+    private static void printNum(int [] arr, int k,int n,int i, int[] newArray) {
         if (newArray.length==k) {
             System.out.println("Arrays.toString(newArray) = " + Arrays.toString(newArray));
+            return;
         }
+
+        for ( int j=i; j <n ; j++) {
+            printNum(arr,k,n,i+1,newArray);
+        }
+
 
 
 
