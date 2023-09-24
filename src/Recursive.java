@@ -1,16 +1,16 @@
 public class Recursive {
 
     public static void main(String[] args) {
-        String s = "bacabcab";
+        int s=1233221;
         System.out.println("isPalindrome(s) = " + isPalindrome(s));
 
     }
 
-//    public static boolean isPalindrome(int num) {
-//        String s = String.valueOf(num);
-//        return isPalindrome(s);
-//
-//    }
+    public static boolean isPalindrome(int num) {
+        String s = String.valueOf(num);
+        return isPalindrome(s);
+
+    }
 
     public static boolean isPalindrome(String string) {
 
