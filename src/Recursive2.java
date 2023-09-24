@@ -1,25 +1,35 @@
 public class Recursive2 {
 
     public static void main(String[] args) {
-//        int startNum = 20;
-//        int patternNum = 4;
-//        printPattern(startNum);
-//        System.out.println("=====================");
-//        printPattern(startNum,patternNum);
+        int startNum = 20;
+        int patternNum = 4;
+        printPattern(startNum);
+        System.out.println("=====================");
+        printPattern(startNum,patternNum);
 
 
         printNum(4);
 
 
+
     }
 
     public static void printNum(int x) {
+
+        if (x == 0)
+            return;
+
         for (int i = 0; i < x; i++) {
             System.out.print(1);
-            printNum(x - 1);
         }
         System.out.println();
+        printNum(x - 1);
+
     }
+
+
+
+
 
     public static void printPattern(int n) {
         if (n <= 0) {
