@@ -12,6 +12,23 @@ public class JDBC_Connection {
         String uName = "root";
         String password = "root";
         String query = "select * from  EngineeringStudent";
+        String url ="jdbc:mysql://localhost:3306/mydb";
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        }catch (ClassNotFoundException e){
+           e.printStackTrace();
+        }
+
+        try {
+            Connection connection = DriverManager.getConnection(
+                    url, uName, password);
+
+            String UniversityData = "";
+        }catch (SQLException e){
+
+        }
+
 
 
 
