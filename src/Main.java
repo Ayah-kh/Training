@@ -1,12 +1,16 @@
+import HashTables.Student;
+
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        Integer[] numbers={1,1,2,2,2,3,4,4,5,5,5};
-        Set<Integer> set=new HashSet<>(Arrays.asList(numbers));
-        System.out.println("list = " + set);
-        Set<Integer> set1=Set.of(5,6,4,7,8,9);
+       int[] arr = new int[5];
+        Student[] arr2 = new Student[5];
+        arr2[0]=new Student("ayah","222",2.3);
+        System.out.println(arr2[0]);
+
+        ArrayList<String> arrayList= new ArrayList<>();
     }
 
 
