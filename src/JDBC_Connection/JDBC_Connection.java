@@ -23,8 +23,17 @@ public class JDBC_Connection {
         try {
             Connection connection = DriverManager.getConnection(
                     url, uName, password);
+            Statement statement = connection.createStatement();
+            ResultSet result = statement.executeQuery(query);
 
-            String UniversityData = "";
+            while (result.next()){
+                String UniversityData = "";
+                for (int i = 0; i <= 3; i++) {
+                    UniversityData+=result.getString(i)+":";
+                }
+            }
+
+
         }catch (SQLException e){
 
         }
