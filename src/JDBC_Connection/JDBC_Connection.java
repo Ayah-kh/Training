@@ -27,7 +27,6 @@ public class JDBC_Connection {
             ResultSet result = statement.executeQuery(query);
 
             while (result.next()){
-                System.out.println("44444");
                 String UniversityData = "";
                 for (int i = 1; i <= 3; i++) {
                     UniversityData+=result.getString(i)+":";
@@ -37,7 +36,7 @@ public class JDBC_Connection {
 
 
         }catch (SQLException e){
-
+            e.printStackTrace();
         }
 
     }
