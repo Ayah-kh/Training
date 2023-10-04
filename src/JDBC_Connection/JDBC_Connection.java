@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class JDBC_Connection {
     public static void main(String[] args) throws SQLException{
 
-        String uName = "root";
+        String userName = "root";
         String password = "root";
         String query = "select * from engineeringstudent";
         String url ="jdbc:mysql://localhost:3306/university";
@@ -22,7 +22,7 @@ public class JDBC_Connection {
 
         try {
             Connection connection = DriverManager.getConnection(
-                    url, uName, password);
+                    url, userName, password);
             Statement statement = connection.createStatement();
             ResultSet result = statement.executeQuery(query);
 
