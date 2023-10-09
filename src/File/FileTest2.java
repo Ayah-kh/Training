@@ -14,10 +14,11 @@ public class FileTest2 {
                             new FileReader("C:\\Users\\DELL\\Desktop\\Test\\file1.txt"));
             String s;
             while ((s=bufferedReader.readLine())!=null){
-                System.out.println(s);
+                bw.write(s+"\n");
 
             }
             bufferedReader.close();
+            bw.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
