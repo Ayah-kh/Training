@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/File/CreateFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/File/FileTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/File/FileTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/CreateFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/File/CreateFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.File.FileTest2">
+  <component name="RunManager" selected="Application.CreateFile">
+    <configuration name="CreateFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="File.CreateFile" />
+      <module name="DigitinaryCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="File.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="File.FileTest" />
       <module name="DigitinaryCourse" />
@@ -106,20 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Training1.Recursive3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Training1.Recursive3" />
-      <module name="DigitinaryCourse" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateFile" />
         <item itemvalue="Application.File.FileTest2" />
         <item itemvalue="Application.File.FileTest" />
         <item itemvalue="Application.Training1.JDBC_Connection.JDBC_Connection" />
         <item itemvalue="Application.Training1.Main" />
-        <item itemvalue="Application.Training1.Recursive3" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00048" summary="First Commit">
-      <created>1695030755002</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1695030755002</updated>
     </task>
     <task id="LOCAL-00049" summary="First Commit">
       <created>1695035879565</created>
@@ -475,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696836672105</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="First Commit">
+      <created>1696841497234</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1696841497234</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
