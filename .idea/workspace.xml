@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/src/JDBC_Connection/JDBC_Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC_Connection/JDBC_Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +57,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JDBC_Connection">
-    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Combination" />
+  <component name="RunManager" selected="Application.Training1.JDBC_Connection.JDBC_Connection">
+    <configuration name="Training1.Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Training1.Combination" />
       <module name="DigitinaryCourse" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBC_Connection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC_Connection.JDBC_Connection" />
+    <configuration name="Training1.JDBC_Connection.JDBC_Connection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Training1.JDBC_Connection.JDBC_Connection" />
       <module name="DigitinaryCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDBC_Connection.*" />
+          <option name="PATTERN" value="Training1.JDBC_Connection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,22 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Training1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Training1.Main" />
       <module name="DigitinaryCourse" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursive2" />
+    <configuration name="Training1.Recursive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Training1.Recursive2" />
       <module name="DigitinaryCourse" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursive3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursive3" />
+    <configuration name="Training1.Recursive3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Training1.Recursive3" />
       <module name="DigitinaryCourse" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JDBC_Connection" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Recursive3" />
-        <item itemvalue="Application.Recursive2" />
-        <item itemvalue="Application.Combination" />
+        <item itemvalue="Application.Training1.JDBC_Connection.JDBC_Connection" />
+        <item itemvalue="Application.Training1.Main" />
+        <item itemvalue="Application.Training1.Recursive3" />
+        <item itemvalue="Application.Training1.Recursive2" />
+        <item itemvalue="Application.Training1.Combination" />
       </list>
     </recent_temporary>
   </component>
@@ -117,20 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00040" summary="First Commit">
-      <created>1694506892252</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1694506892252</updated>
-    </task>
-    <task id="LOCAL-00041" summary="First Commit">
-      <created>1694514401785</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1694514401785</updated>
     </task>
     <task id="LOCAL-00042" summary="First Commit">
       <created>1694514996264</created>
@@ -461,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696406133094</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="First Commit">
+      <created>1696415144648</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1696415144648</updated>
+    </task>
+    <task id="LOCAL-00090" summary="First Commit">
+      <created>1696415250898</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1696415250899</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
