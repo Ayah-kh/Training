@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/File/WriteToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/ReadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filename.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filename.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteToFile">
+  <component name="RunManager" selected="Application.ReadFile">
     <configuration name="CreateFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="File.CreateFile" />
       <module name="DigitinaryCourse" />
@@ -99,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Training1.JDBC_Connection.JDBC_Connection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Training1.JDBC_Connection.JDBC_Connection" />
+    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="File.ReadFile" />
       <module name="DigitinaryCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Training1.JDBC_Connection.*" />
+          <option name="PATTERN" value="File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.WriteToFile" />
         <item itemvalue="Application.CreateFile" />
-        <item itemvalue="Application.File.FileTest2" />
-        <item itemvalue="Application.File.FileTest" />
-        <item itemvalue="Application.Training1.JDBC_Connection.JDBC_Connection" />
       </list>
     </recent_temporary>
   </component>
@@ -143,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00050" summary="First Commit">
-      <created>1695036165669</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1695036165670</updated>
     </task>
     <task id="LOCAL-00051" summary="First Commit">
       <created>1695036994561</created>
@@ -487,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696842055100</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="First Commit">
+      <created>1696845079295</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1696845079295</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
