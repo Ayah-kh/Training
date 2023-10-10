@@ -31,7 +31,7 @@ public abstract class Enemy {
 
     public void showUp(){
         System.out.printf(
-                "[%s] is showing up, Damage is [%d],Health is [%d]"
+                "[%s] is showing up, Damage is [%d],Health is [%d]\n"
                 ,getName(),getDamage(),getHealth());
     }
 }
