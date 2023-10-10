@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/singleton/ThreadSafeSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesignPatterns/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/singleton/ThreadSafeSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/singleton/ThreadSafeSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +58,7 @@
       <recent name="Comparing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DesignPatterns.singleton" />
       <recent name="abstractclass" />
       <recent name="" />
     </key>
@@ -143,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00057" summary="First Commit">
-      <created>1695048069325</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1695048069325</updated>
     </task>
     <task id="LOCAL-00058" summary="First Commit">
       <created>1695115892402</created>
@@ -487,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696935887259</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="First Commit">
+      <created>1696936565030</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1696936565030</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -10,11 +10,22 @@ public class ThreadSafeSingleton {
 
     private List<String> data = Arrays.asList(letters);
 
-    private static ThreadSafeSingleton instance;
+    private  static ThreadSafeSingleton instance;
 
-    public static ThreadSafeSingleton getInstance(){
-        if (instance == null)
-            instance=new ThreadSafeSingleton();
+    private static boolean delayMe = true;
+
+    public static synchronized ThreadSafeSingleton getInstance(){
+        if (instance == null) {
+            if (delayMe) {
+                delayMe = false;
+                Thread.currentThread();
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                }
+            }
+            instance = new ThreadSafeSingleton();
+        }
         return instance;
     }
 

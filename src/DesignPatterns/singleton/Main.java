@@ -11,10 +11,11 @@ public class Main {
 //        System.out.println("inst2.hashCode() = " + inst2.hashCode());
 //        inst2.printData();
 
-        for (int i = 0; i < 50; i++) {
+
 
             new DataPrinter().start();
-        }
+            new DataPrinter().start();
+
 
 
     }
@@ -22,6 +23,8 @@ public class Main {
 class DataPrinter extends Thread{
     @Override
     public void run() {
-        ThreadSafeSingleton.getInstance().printData();
+        ThreadSafeSingleton instance = ThreadSafeSingleton.getInstance();
+        System.out.println("instance.hashCode() = " + instance.hashCode());
+        instance.printData();
     }
 }
