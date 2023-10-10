@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit" />
+    <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/factory/Turtle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/factory/enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/factory/Enemy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00052" summary="First Commit">
-      <created>1695039254985</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1695039254985</updated>
     </task>
     <task id="LOCAL-00053" summary="First Commit">
       <created>1695039339365</created>
@@ -481,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696930094843</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="First Commit">
+      <created>1696930419130</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1696930419130</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

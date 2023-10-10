@@ -1,6 +1,6 @@
 package DesignPatterns.factory;
 
-public abstract class enemy {
+public abstract class Enemy {
     private String name;
     private int damage;
     private int health;
