@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/File/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00051" summary="First Commit">
-      <created>1695036994561</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1695036994561</updated>
     </task>
     <task id="LOCAL-00052" summary="First Commit">
       <created>1695039254985</created>
@@ -484,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696845079295</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="First Commit">
+      <created>1696930094842</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1696930094843</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
