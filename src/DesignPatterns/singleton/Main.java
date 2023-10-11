@@ -1,5 +1,7 @@
 package DesignPatterns.singleton;
 
+import java.util.logging.Logger;
+
 public class Main {
     public static void main(String[] args) {
 //        LazySingleton inst1=LazySingleton.getInstance();
@@ -15,8 +17,6 @@ public class Main {
 
             new DataPrinter().start();
             new DataPrinter().start();
-
-
 
     }
 }
