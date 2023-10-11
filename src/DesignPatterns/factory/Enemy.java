@@ -1,5 +1,7 @@
 package DesignPatterns.factory;
 
+import java.time.LocalDateTime;
+
 public abstract class Enemy {
     private String name;
     private int damage;
