@@ -1,5 +1,6 @@
 package Builder;
 
+//Product Class
 public class User {
     private final String firstName;
     private final String lastName;
@@ -7,6 +8,7 @@ public class User {
     private final String phone;
     private final String address;
 
+    //Private constructor
     private User(UserBuilder builder) {
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
@@ -14,40 +16,9 @@ public class User {
         this.phone = builder.phone;
         this.address = builder.address;
     }
-//All getter, and NO setter to provide immutability
+    //All getter, and NO setter to provide immutability
 
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                ", phone='" + phone + '\'' +
-                ", address='" + address + '\'' +
-                '}';
-    }
-
+    //Builder Class
     public static class UserBuilder {
         private final String firstName;
         private final String lastName;
