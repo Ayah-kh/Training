@@ -12,10 +12,5 @@ public class UserBuilderExample {
         User user1 = new User.UserBuilder("Ahmad","Ali")
                 .address("somewhere")
                 .build();
-
-
-
-
-
     }
 }

@@ -58,7 +58,5 @@ public class User {
             //Do some basic validations to check
             //if user object does not break any assumption of system
         }
-
     }
-
 }
