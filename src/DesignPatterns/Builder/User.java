@@ -1,4 +1,4 @@
-package Builder;
+package DesignPatterns.Builder;
 
 //Product Class
 public class User {
@@ -18,7 +18,7 @@ public class User {
     }
     //All getter, and NO setter to provide immutability
 
-    //Builder Class
+    //DesignPatterns.Builder Class
     public static class UserBuilder {
         private final String firstName;
         private final String lastName;

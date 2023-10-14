@@ -1,4 +1,4 @@
-package Builder;
+package DesignPatterns.Builder;
 
 
 public class UserBuilderExample {
