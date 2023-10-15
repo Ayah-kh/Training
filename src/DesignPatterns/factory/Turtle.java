@@ -1,5 +1,6 @@
 package DesignPatterns.factory;
 
+//Concrete Product
 public class Turtle extends Enemy{
     public Turtle(){
         setName("Turtle");

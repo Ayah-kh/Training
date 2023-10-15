@@ -1,5 +1,6 @@
 package DesignPatterns.factory;
 
+//Concrete Product
 public class Bird extends Enemy{
     public Bird(){
         setName("Bird");

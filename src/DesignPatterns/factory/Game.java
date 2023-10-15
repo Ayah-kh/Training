@@ -8,7 +8,7 @@ public class Game {
 
         int loop = 5;
         while (loop>0){
-            Enemy enemy=EnemeyFactory.createEnemy(getRandom(1,2));
+            Enemy enemy= EnemyFactory.createEnemy(getRandom(1,2));
             enemy.showUp();
             loop--;
         }

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/src/Builder/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/factory/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/factory/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/factory/EnemeyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/factory/EnemyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/factory/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/factory/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/factory/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/factory/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/factory/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/factory/Turtle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +67,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserBuilderExample">
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DesignPatterns.Builder.UserBuilderExample">
+    <configuration name="DesignPatterns.Builder.UserBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Builder.UserBuilderExample" />
+      <module name="DigitinaryCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignPatterns.factory.Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.factory.Game" />
       <module name="DigitinaryCourse" />
       <extension name="coverage">
@@ -102,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Builder.UserBuilderExample" />
-      <module name="DigitinaryCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WriteToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="File.WriteToFile" />
       <module name="DigitinaryCourse" />
@@ -130,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserBuilderExample" />
+        <item itemvalue="Application.DesignPatterns.Builder.UserBuilderExample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Game" />
+        <item itemvalue="Application.DesignPatterns.factory.Game" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.WriteToFile" />
       </list>
@@ -146,27 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00068" summary="First Commit">
-      <created>1695229647672</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1695229647672</updated>
-    </task>
-    <task id="LOCAL-00069" summary="First Commit">
-      <created>1695482794364</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1695482794364</updated>
-    </task>
-    <task id="LOCAL-00070" summary="First Commit">
-      <created>1695483385529</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1695483385529</updated>
     </task>
     <task id="LOCAL-00071" summary="First Commit">
       <created>1695484288238</created>
@@ -490,7 +474,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697293829370</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="First Commit">
+      <created>1697293952646</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1697293952647</updated>
+    </task>
+    <task id="LOCAL-00118" summary="First Commit">
+      <created>1697300072513</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1697300072513</updated>
+    </task>
+    <task id="LOCAL-00119" summary="First Commit">
+      <created>1697300132476</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1697300132476</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
