@@ -6,8 +6,9 @@ import java.util.List;
 public class Meal {
     private List<Item> items = new ArrayList<>();
 
-    public void addItem(Item item) {
+    public Meal addItem(Item item) {
         items.add(item);
+        return this;
     }
 
     public float getCost() {
@@ -16,15 +17,14 @@ public class Meal {
         for (Item item : items) {
             cost+=item.price();
         }
-
         return cost;
     }
 
     public void showItems() {
         for (Item item : items) {
             System.out.print("Item: " + item.name());
-            System.out.print(", Packing: " + item.packing().pack());
             System.out.println(", Item: " + item.price());
         }
+        System.out.println("Total= " + getCost());
     }
 }

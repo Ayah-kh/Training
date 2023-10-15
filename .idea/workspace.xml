@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/src/builder2/MealChoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder2/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder2/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder2/ColdDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder2/ColdDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder2/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder2/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder2/Meal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ayah-labtop/Java/Code/LearnSpringFramework-master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.1344086&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/ayah-labtop/Java/Code/DigitinaryCourse/src/Builder3",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.1344086",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="builder2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ayah-labtop\Java\Code\DigitinaryCourse\src\Builder3" />
+      <recent name="D:\ayah-labtop\Java\Code\DigitinaryCourse\src" />
       <recent name="D:\ayah-labtop\Java\Code\DigitinaryCourse\src\Student" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -65,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignPatterns.Builder.UserBuilderExample">
+  <component name="RunManager" selected="Application.MealChoice">
     <configuration name="DesignPatterns.Builder.UserBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Builder.UserBuilderExample" />
       <module name="DigitinaryCourse" />
@@ -105,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MealChoice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="builder2.MealChoice" />
+      <module name="DigitinaryCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="builder2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="File.ReadFile" />
       <module name="DigitinaryCourse" />
@@ -118,26 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="File.WriteToFile" />
-      <module name="DigitinaryCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="File.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MealChoice" />
         <item itemvalue="Application.DesignPatterns.Builder.UserBuilderExample" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DesignPatterns.factory.Game" />
         <item itemvalue="Application.ReadFile" />
-        <item itemvalue="Application.WriteToFile" />
       </list>
     </recent_temporary>
   </component>
@@ -149,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00076" summary="First Commit">
-      <created>1695561964911</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1695561964911</updated>
     </task>
     <task id="LOCAL-00077" summary="First Commit">
       <created>1695564938315</created>
@@ -493,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697365870580</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="First Commit">
+      <created>1697366914190</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1697366914190</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
