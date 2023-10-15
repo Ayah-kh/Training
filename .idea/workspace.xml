@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d1ed88-6350-4feb-9713-4240bd7c2c04" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/Builder4/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder4/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder4/Packing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder4/BuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder4/CDBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +62,27 @@
       <recent name="Comparing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Builder4" />
       <recent name="DesignPatterns.factory2" />
       <recent name="DesignPatterns.singleton" />
       <recent name="abstractclass" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MealChoice">
+  <component name="RunManager" selected="Application.BuilderDemo">
+    <configuration name="BuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Builder4.BuilderDemo" />
+      <module name="DigitinaryCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Builder4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DesignPatterns.Builder.UserBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Builder.UserBuilderExample" />
       <module name="DigitinaryCourse" />
@@ -122,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="File.ReadFile" />
-      <module name="DigitinaryCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="File.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderDemo" />
         <item itemvalue="Application.MealChoice" />
         <item itemvalue="Application.DesignPatterns.Builder.UserBuilderExample" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DesignPatterns.factory.Game" />
-        <item itemvalue="Application.ReadFile" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693809637479</updated>
-    </task>
-    <task id="LOCAL-00078" summary="First Commit">
-      <created>1695566240107</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1695566240107</updated>
     </task>
     <task id="LOCAL-00079" summary="First Commit">
       <created>1696321941988</created>
@@ -497,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697370329206</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="First Commit">
+      <created>1697370953347</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1697370953347</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
